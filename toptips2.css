@@ -1,0 +1,80 @@
+html {
+    background-image: url("snow.png");
+  }
+  body {
+     width: 1040px;
+     height: 1125px;
+     margin: auto;
+     background-color: white;
+  }
+
+  header {
+      background-color: #69C4DB;
+      padding: 25px;
+      font-size: 25px;
+      display: block;
+      overflow: auto;
+      width: 990px;
+    
+  }
+header div {
+    /* width: 450px; */
+    float: left;
+}
+div img {
+    width: 80%;
+    float: right;
+} 
+.left { width: 650px;
+}
+.right { width: 325px;}
+}
+  nav {
+      float: left;
+      width: 100%;
+  }
+  nav ul {
+      padding: 20px;
+      float: left;
+      list-style-type: none;
+      background-color: #69C4DB;
+      width: 1000px;
+  }
+  nav li {
+      float: left;
+     
+  }
+  nav li a {
+      display: block;
+      height: 30px;
+      padding: 10px 12px 10px 12px;
+      vertical-align: middle;
+  }
+  a {
+      font-size: 30px;
+  }
+  section {
+      width: 95%;
+      /* display: inline-block; */
+      float: left;
+      padding: 30px;
+
+  }
+  article img { float: right;
+ }
+ .down { width: 200px;
+ }
+ .up { width: 250px; float: right;}
+ 
+  aside {
+      width: 17%;
+      display: inline-block;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      clear: both;
+      display: block;
+  }
